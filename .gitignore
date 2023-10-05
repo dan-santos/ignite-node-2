@@ -84,7 +84,6 @@ web_modules/
 .env.local
 *.env
 .env*
-env
 venv
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -147,4 +146,4 @@ dist
 
 # End of https://www.toptal.com/developers/gitignore/api/node
 
-db/app.db
+*.db

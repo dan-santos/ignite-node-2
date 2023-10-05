@@ -1,18 +1,15 @@
-
-import { config as appconfig } from '../appconfig';
 import { knex as setupKnex, Knex } from 'knex';
-
-if (!appconfig.database.url) throw new Error('Cannot connect to database');
+import { env } from './env';
 
 export const config: Knex.Config = {
-  client: appconfig.database.client,
+  client: env.DATABASE_CLIENT,
   connection: {
-    filename: appconfig.database.url,
+    filename: env.DATABASE_URL,
   },
   useNullAsDefault: true,
   migrations: {
     extension: 'ts',
-    directory: appconfig.database.migrations_path,
+    directory: env.DATABASE_MIGRATIONS_PATH,
   }
 };
 export const knex = setupKnex(config);

@@ -1,5 +1,6 @@
 ## Projeto 2 da Trilha Ignite de Node.Js
 Utilizando TypeScript, fastify, tsx, knex, zod e sqlite3
+Somente testes e2e serão feitos utilizando vitest.
 
 ---
 
@@ -12,8 +13,8 @@ Utilizando TypeScript, fastify, tsx, knex, zod e sqlite3
 
 ### RN
 1. [x] A transação pode ser do tipo crédito que somará ao valor total, ou débito que subtrairá do valor total;
-2. [ ] Deve ser possível identificarmos o usuário entre as requisições;
-3. [ ] O usuário só poderá visualizar transações que ele criou.
+2. [x] Deve ser possível identificarmos o usuário entre as requisições;
+3. [x] O usuário só poderá visualizar transações que ele criou.
 
 ### RNF
-1. WIP
+-
