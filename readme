@@ -1,6 +1,21 @@
 ## Projeto 2 da Trilha Ignite de Node.Js
-Utilizando TypeScript, fastify, tsx, knex, zod e sqlite3
-Somente testes e2e serão feitos utilizando vitest.
+Stack Utilizada:
+Backend:
+- TypeScript
+- Fastify
+- tsx
+- zod
+- vitest
+- tsup
+
+Dados:
+- Sqlite3 (dev e test)
+- Postgres 15 (prd)
+- knex (query builder)
+
+Infra:
+- render
+- github
 
 ---
 
