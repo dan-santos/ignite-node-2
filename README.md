@@ -32,4 +32,4 @@ Infra:
 3. [x] O usuário só poderá visualizar transações que ele criou.
 
 ### RNF
--
+--
